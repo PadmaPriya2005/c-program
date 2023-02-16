@@ -1,0 +1,18 @@
+//print x to the power of y value.
+#include <stdio.h>
+ main() 
+ {
+    int base, power, result = 1;
+    printf("Enter a base number: ");
+    scanf("%d",&base);
+    printf("Enter an power number: ");
+    scanf("%d",&power);
+
+    while (power != 0) 
+	{
+        result *= base;
+        power--;
+    }
+    printf("Answer = %d", result);
+    
+}
